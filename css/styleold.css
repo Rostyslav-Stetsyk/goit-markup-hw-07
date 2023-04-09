@@ -1,0 +1,230 @@
+/** ----------- Main page style (index.html) ----------- */
+
+/** ---------------------- Section1: Featuress ---------------------- */
+
+.featuress {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.featuress-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuress-list .item {
+    width: 264px;
+}
+
+.featuress-list .icon-container {
+    background-color: var(--light-mode-color);
+    border-radius: 4px;
+    width: 100%;
+    height: 112px;
+    padding: 24px 100px;
+}
+
+.featuress-list .icon {
+    width: 64px;
+    height: 64px;
+}
+
+.featuress-list .list-title {
+    margin-top: 8px;
+}
+
+.featuress-list .text {
+    margin-top: 8px;
+}
+
+/** ---------------------- Section2: Example ---------------------- */
+
+.example {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.example-list {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 72px;
+}
+
+
+/** ---------------------- Section3: Team ---------------------- */
+
+.team {
+    background-color: var(--light-mode-color);
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-cards {
+    display: flex;
+    margin-top: 72px;
+    justify-content: space-between;
+}
+
+.team-cards .card {
+    background-color: var(--white-color);
+    max-width: 264px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team .card-content {
+    padding: 32px 16px;
+}
+
+.team-cards .card-title {
+    text-align: center;
+}
+
+.team-cards .desc {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card-links .link:hover,
+.card-links .link:focus {
+    background-color: var(--pressed-state-color);
+}
+
+/** ---------------------- Customers ---------------------- */
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 72px;
+}
+
+.customers-item {
+    width: calc((100% - 24px * 5)/6);
+}
+
+.customers-item .link {
+    display: block;
+
+    border: 1px solid var(--customers-icon);
+    border-radius: 4px;
+    padding: 16px 32px;
+    color: var(--customers-icon);
+
+    transition-property: border-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-item .icon {
+    fill: currentColor;
+    width: 104px;
+    height: 56px;
+}
+
+.customers-item .link:hover,
+.customers-item .link:focus {
+    border-color: var(--pressed-state-color);
+    color: var(--pressed-state-color);
+}
+
+/** ---------------------- Portfolio page style (portfolio.html) ---------------------- */
+/** ---------------------- Main content ---------------------- */
+
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+/** ---------------------- Buttons ---------------------- */
+
+.filter-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-btns .item:not(:first-child) {
+    margin-left: 24px;
+}
+
+.filter-btns .btn {
+    color: var(--primary-brand-color);
+    background-color: var(--light-mode-color);
+    border-radius: 4px;
+    border: 1px solid var(--accent-color);
+
+    padding: 12px 24px;
+
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-btns .btn:hover,
+.filter-btns .btn:focus {
+    color: var(--white-color);
+    background-color: var(--pressed-state-color);
+    border-color: transparent;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/** ---------------------- Portfolio Cards ---------------------- */
+
+.portfolio .example-cards {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    margin-top: 72px;
+}
+
+.overlay-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-card .overlay-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+
+    padding: 40px 32px;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-brand-color);
+    color: var(--light-mode-color);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio .card-content {
+    padding: 32px 16px;
+    border: 1px solid var(--accent-color);
+    border-top: none;
+}
+
+.portfolio .desc {
+    margin-top: 8px;
+}
+
+.portfolio .card {
+    width: 360px;
+}
+
+.portfolio .card-link:focus .overlay-text,
+.portfolio .card-link:hover .overlay-text {
+    transform: translateY(-100%);
+}
+
+.portfolio .card:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
