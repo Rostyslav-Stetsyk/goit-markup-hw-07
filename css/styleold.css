@@ -1,42 +1,5 @@
 /** ----------- Main page style (index.html) ----------- */
 
-/** ---------------------- Section1: Featuress ---------------------- */
-
-.featuress {
-    padding-top: 120px;
-    padding-bottom: 60px;
-}
-
-.featuress-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.featuress-list .item {
-    width: 264px;
-}
-
-.featuress-list .icon-container {
-    background-color: var(--light-mode-color);
-    border-radius: 4px;
-    width: 100%;
-    height: 112px;
-    padding: 24px 100px;
-}
-
-.featuress-list .icon {
-    width: 64px;
-    height: 64px;
-}
-
-.featuress-list .list-title {
-    margin-top: 8px;
-}
-
-.featuress-list .text {
-    margin-top: 8px;
-}
-
 /** ---------------------- Section2: Example ---------------------- */
 
 .example {
@@ -50,7 +13,6 @@
 
     margin-top: 72px;
 }
-
 
 /** ---------------------- Section3: Team ---------------------- */
 
