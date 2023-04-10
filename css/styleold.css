@@ -2,18 +2,6 @@
 
 /** ---------------------- Section2: Example ---------------------- */
 
-.example {
-    padding-top: 60px;
-    padding-bottom: 120px;
-}
-
-.example-list {
-    display: flex;
-    justify-content: space-between;
-
-    margin-top: 72px;
-}
-
 /** ---------------------- Section3: Team ---------------------- */
 
 .team {

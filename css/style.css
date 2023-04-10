@@ -528,6 +528,12 @@ img {
     line-height: 1.5;
 }
 
+/** ---------------------- Example ---------------------- */
+
+.example {
+    display: none;
+}
+
 /** ---------------------- Modal window ---------------------- */
 
 .backdrop {
@@ -1023,7 +1029,7 @@ img {
 
     .featuress-list {
         display: flex;
-        column-gap: 24px;
+        justify-content: space-between;
     }
 
     .featuress-list .item {
@@ -1190,6 +1196,21 @@ img {
         width: 100%;
         height: 112px;
         padding: 24px 100px;
+    }
+
+    /* ---------------------- Example ---------------------- */
+
+    .example {
+        display: block;
+        padding-top: 60px;
+        padding-bottom: 120px;
+    }
+
+    .example-list {
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 72px;
     }
 }
 
