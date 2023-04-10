@@ -608,6 +608,52 @@ img {
     background-color: var(--pressed-state-color);
 }
 
+/** ---------------------- Customers ---------------------- */
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers>.container {
+    max-width: 396px;
+}
+
+.customers-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+
+    flex-wrap: wrap;
+}
+
+.customers-item {
+    max-width: 190px;
+}
+
+.customers-item .link {
+    display: block;
+
+    border: 1px solid var(--customers-icon);
+    border-radius: 4px;
+    padding: 16px 32px;
+    color: var(--customers-icon);
+
+    transition-property: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-item .icon {
+    fill: currentColor;
+    width: 104px;
+    height: 56px;
+}
+
+.customers-item .link:hover,
+.customers-item .link:focus {
+    border-color: var(--pressed-state-color);
+    color: var(--pressed-state-color);
+}
+
 /** ---------------------- Modal window ---------------------- */
 
 .backdrop {
@@ -847,6 +893,16 @@ img {
 
     .form-subscribe .mail {
         width: 100%;
+    }
+
+    /* ----------------------- Customers---------------------- */
+
+    .customers>.container {
+        max-width: 190px;
+    }
+
+    .customers-list {
+        justify-content: center;
     }
 }
 
@@ -1129,6 +1185,16 @@ img {
         justify-content: space-between;
     }
 
+    /* ---------------------- Customers ---------------------- */
+
+    .customers>.container {
+        max-width: 584px;
+    }
+
+    .customers-item {
+        max-width: 168px;
+    }
+
     /* ----------------------- Modal ----------------------- */
 
     .backdrop.js-modal-container .modal {
@@ -1180,6 +1246,12 @@ img {
 
     .form-container {
         margin-top: 72px;
+    }
+
+    /* ---------------------- Customers ---------------------- */
+
+    .customers-list {
+        row-gap: 72px;
     }
 }
 
@@ -1314,6 +1386,16 @@ img {
 
     .team>.container {
         max-width: 1158px;
+    }
+
+    /* ---------------------- Customers ---------------------- */
+
+    .customers>.container {
+        max-width: 1158px;
+    }
+
+    .customers-list {
+        justify-content: space-between;
     }
 }
 
