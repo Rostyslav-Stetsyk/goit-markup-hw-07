@@ -1018,12 +1018,11 @@ img {
     /* ---------------------- Features ---------------------- */
 
     .featuress .container {
-        max-width: 736px;
+        max-width: 768px;
     }
 
     .featuress-list {
         display: flex;
-        width: 736px;
         column-gap: 24px;
     }
 
@@ -1068,7 +1067,7 @@ img {
         margin-left: 24px;
     }
 
-    /** ---------------------- Features ---------------------- */
+    /* ---------------------- Features ---------------------- */
 
     .featuress-list {
         flex-wrap: wrap;
@@ -1165,6 +1164,19 @@ img {
 
     .featuress-list {
         max-width: 1128px;
+    }
+
+    .featuress-list .list-title {
+        margin-top: 8px;
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24/20);
+    }
+
+    .featuress-list .text {
+        font-weight: 400;
+        font-size: 16px;
     }
 
     .featuress-list .item {
