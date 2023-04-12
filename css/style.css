@@ -1486,10 +1486,6 @@ img {
 
 /* ----------------------- Porfolio ----------------------- */
 
-.portfolio>.container {
-    max-width: 1158px;
-}
-
 .portfolio .example-cards {
     display: flex;
     flex-wrap: wrap;
