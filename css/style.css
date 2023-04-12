@@ -410,6 +410,7 @@ img {
     display: block;
     padding: 8px 64px 8px 24px;
     height: 40px;
+    z-index: 1;
 
     letter-spacing: 0.04em;
     color: var(--white-color);
